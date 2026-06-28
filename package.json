@@ -1,0 +1,26 @@
+{
+  "name": "react-native-enriched-markdown-inline-math-repro",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "prebuild": "expo prebuild --platform ios",
+    "ios": "expo run:ios",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "expo": "~56.0.12",
+    "expo-dev-client": "~56.0.20",
+    "expo-status-bar": "~56.0.4",
+    "react": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-enriched-markdown": "0.7.0-nightly-20260627-4e5ceb7c3",
+    "react-native-safe-area-context": "~5.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.14",
+    "babel-preset-expo": "~56.0.15",
+    "typescript": "~6.0.3"
+  }
+}

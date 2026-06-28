@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Inline Math Repro",
+    "slug": "react-native-enriched-markdown-inline-math-repro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "ios": {
+      "bundleIdentifier": "dev.eliotgevers.enrichedmarkdownmathrepro"
+    },
+    "newArchEnabled": true,
+    "plugins": ["expo-dev-client"]
+  }
+}
